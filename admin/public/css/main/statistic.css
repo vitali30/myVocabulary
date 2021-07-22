@@ -1,0 +1,19 @@
+.main_content__stat{
+    background-color: khaki;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.head_nav__list > li {
+    width: max-content;
+    min-width: 200px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    text-transform: uppercase
+}

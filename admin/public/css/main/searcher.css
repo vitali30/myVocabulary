@@ -1,0 +1,20 @@
+.main_content__searcher{
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main_content__search_icon{
+    margin-right: 25px;
+}
+.main_content__text_input{
+    margin-right: 25px;
+}
+.main_content__button{
+    text-transform: uppercase;
+}

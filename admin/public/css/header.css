@@ -1,0 +1,37 @@
+.head{
+    height: 100px;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    box-sizing: border-box
+}
+.head_nav{
+    width: 100%;
+}
+
+.head_nav__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.head_nav__list > li {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    width: max-content;
+    min-width: 200px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.head_nav__list > li:hover{
+    background-color: rgb(37, 43, 43);
+    border: 2px solid azure;
+    color: azure;
+}

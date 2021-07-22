@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <heared class="head">
+        <img class="head_img" src="../public/images/voca.png" alt="dictionary" width="65" height="50">
+        <nav class="head_nav">
+            <ul class="head_nav__list">
+                <li>All words</li>
+                <li>Learned</li>
+                <li>For learning</li>
+                <li>Statistic</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
+    </heared>
+    <main class="main">
+
+        <div class="main_content__searcher">
+            <span class="material-icons main_content__search_icon">&#xe8b6;</span>
+            <input class="main_content__text_input"/>
+            <input class="main_content__button" type="button" value="Add">
+        </div>
+
+        <section class="main_content">
+            <div class="main_content__left">
+                <ul class="main_content__word">
+                    <li>
+                        <span class="material-icons main_content__word__icon">&#xe92d;</span>
+                        <span id="eng_word" class="word">Hello</span>
+                    </li>
+                    <li>
+                        <span class="material-icons main_content__word__icon">&#xe92d;</span>
+                        <span id="translated_word" class="word">Привет</span>
+                    </li>
+                    <li>
+                        <span class="material-icons main_content__word__icon">&#xe92d;</span>
+                        <span id="word_phrase" class="word">Hello World</span>
+                    </li>
+                    <li><span class="material-icons main_content__word__icon">&#xe92d;</span>
+                        <span id="word_addition" class="word">Привет Мир</span></li>
+                </ul>
+
+                <ul class="main_content__stat">
+                    <li>
+                        <span>Total words:</span>
+                        <hr>
+                        <span>1123</span>
+                    </li>
+                    <li>
+                        <span>Learned words:</span>
+                        <hr>
+                        <span>123</span>
+                    </li>
+                    <li>
+                        <span>For learning:</span>
+                        <hr>
+                        <span>1000</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="main_content__right">Additional section</div>
+        </section>
+        
+    </main>
+    <footer class="foot">
+        <div class="foot_content">footer section</div>
+    </footer>
+
+</body>
+</html>

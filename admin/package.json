@@ -1,0 +1,12 @@
+{
+  "name": "vocabluary",
+  "version": "1.0.0",
+  "description": "my Vocabluary",
+  "main": "index.js",
+  "scripts": {
+    "page": "start public/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

@@ -1,0 +1,16 @@
+.main{
+
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.main_content__left{
+    width: inherit;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.main_content__right{
+    width: 50%;
+}
