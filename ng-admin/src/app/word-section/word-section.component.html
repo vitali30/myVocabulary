@@ -1,0 +1,29 @@
+
+<div class="max-content margined_left">
+    <!-- <button class="btn" (click)="clickFunction()">get real words</button> -->
+    <ng-container *ngFor="let word of this.WordService.words">
+
+        <div class="word">
+            <span>
+                <i class="material-icons-outlined word_icon green" *ngIf="word.learned; else uncheckedBlock">task_alt</i>
+                <ng-template #uncheckedBlock>
+                    <i class="material-icons-outlined word_icon red" >radio_button_unchecked</i>
+                </ng-template>
+                <span class="word_text">{{ word.word }}</span>
+                <span class="word_rating">{{ word.rating }}%</span>
+            </span>
+            <br>
+            <span class="word_additional translation">
+                <i class="material-icons-outlined word_icon">more_horiz</i>
+                <span *ngFor="let one of word.translation">{{ one }}<b> | </b></span>
+            </span>
+            <br>
+            <span class="word_additional example">
+                <i class="material-icons-outlined word_icon">more_horiz</i>
+                <i>{{ word.example }}</i>
+            </span>
+        </div>
+
+        <hr class="word_divider">
+    </ng-container>
+</div>

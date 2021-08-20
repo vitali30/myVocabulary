@@ -18,7 +18,7 @@
     justify-content: space-around;
     width: 100%;
 }
-.head_nav__list > li {
+.head_nav__list > a {
     border: 2px solid black;
     border-radius: 5px;
     background-color: azure;
@@ -29,8 +29,9 @@
     line-height: 25px;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
-.head_nav__list > li:hover{
+.head_nav__list > a:hover{
     background-color: rgb(37, 43, 43);
     border: 2px solid azure;
     color: azure;

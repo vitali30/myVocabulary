@@ -1,0 +1,24 @@
+.word_icon{
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+.word_text{
+    margin-right: 2rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.word_rating{
+    vertical-align: middle;
+}
+.green{
+    color: var(--sucsess-color);
+}
+.red{
+    color: var(--error-color);
+}
+.word_additional{
+    margin-left: 3rem;
+}
+.word_divider{
+    width: 70%;
+}

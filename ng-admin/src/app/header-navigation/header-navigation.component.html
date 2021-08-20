@@ -1,0 +1,12 @@
+<nav class="header_nav">
+    <ul class="header_nav__list">
+        <a 
+            *ngFor="let item of items" 
+            [href]="item.reference" 
+            [id]="item.identifier"
+            class="header-button btn"
+        >
+            {{ item.name }}
+        </a>
+    </ul>
+</nav>

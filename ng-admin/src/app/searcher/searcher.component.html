@@ -1,0 +1,15 @@
+<div class="searcher max-content">
+    <label for="translate_word" class="searcher_label">
+        <i class="searcher_icon material-icons-outlined">edit</i>
+    </label>
+    
+    <div class="purpose">
+        <input type="text" id="translate_word" name="translate_word" class="searcher_input" (input)="inputText($event)" [value]="word">
+        <div class="variant" *ngFor="let oneWord of this.WordService.filtredWords">{{ oneWord.word }}</div>
+    </div>
+    
+    <button class="btn searcher_button" (click)="clickSearch()"> 
+        Search
+        <i class="material-icons-outlined">search</i>
+    </button>
+</div>
